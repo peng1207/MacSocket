@@ -1,0 +1,679 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AD082EB56F88FDE7D78643B44FF17A4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 270DD1219F1E6CF00379D39F252D87C6 /* Cocoa.framework */; };
+		392F1BC36A99C5798119F1A02518A2E8 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 270DD1219F1E6CF00379D39F252D87C6 /* Cocoa.framework */; };
+		54CD4167EC286FAB09E4A203FAF9E613 /* Pods-MacSockerDemoUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CD8946ADC98CE997BD52A50BC9548F8 /* Pods-MacSockerDemoUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5AE8DD5570581E09C1553BCB4F13C0C1 /* Pods-MacSockerDemoTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 19C00F481E7430AD29B8BCC757A9F027 /* Pods-MacSockerDemoTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B480A870DD53BA85E3A5D4D41A7DDEC /* Pods-MacSockerDemoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F0DBC6D40D800082BBF7D8921C0D3B7 /* Pods-MacSockerDemoUITests-dummy.m */; };
+		87A69C55CEAC167D7DF4846666ACC15D /* Pods-MacSockerDemoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D612EA95C66AFB47F5326DDF924B157 /* Pods-MacSockerDemoTests-dummy.m */; };
+		C02F1230AD8DEF34F51466BB64CCB882 /* Pods-MacSockerDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B68839A575FDC8DD3CD403C2C9BE11A9 /* Pods-MacSockerDemo-dummy.m */; };
+		C1987CDCEBD2C5E256B8A68B8D718796 /* Pods-MacSockerDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EA2B9ACC420167C5FBE857E28A1751F /* Pods-MacSockerDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB403F2F27DD5321C96E5904A5EBC16E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 270DD1219F1E6CF00379D39F252D87C6 /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		012200B57D2B19E0F0EB145090DA1BDF /* Pods-MacSockerDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MacSockerDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		0F68ECC0275317067CF544074785E15C /* Pods-MacSockerDemoTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MacSockerDemoTests.modulemap"; sourceTree = "<group>"; };
+		19C00F481E7430AD29B8BCC757A9F027 /* Pods-MacSockerDemoTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MacSockerDemoTests-umbrella.h"; sourceTree = "<group>"; };
+		1EA2B9ACC420167C5FBE857E28A1751F /* Pods-MacSockerDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MacSockerDemo-umbrella.h"; sourceTree = "<group>"; };
+		270DD1219F1E6CF00379D39F252D87C6 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		3AB36BC6A41182E8718ECE5079123115 /* Pods-MacSockerDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MacSockerDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3B08A4B07EE3E74C3F8AFE96B27A794B /* Pods-MacSockerDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MacSockerDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3D612EA95C66AFB47F5326DDF924B157 /* Pods-MacSockerDemoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MacSockerDemoTests-dummy.m"; sourceTree = "<group>"; };
+		48F7024B8B9042DE7BFAC227D5654322 /* Pods_MacSockerDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MacSockerDemoTests.framework; path = "Pods-MacSockerDemoTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4936598C46454AD900741D09AF512B44 /* Pods_MacSockerDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MacSockerDemoUITests.framework; path = "Pods-MacSockerDemoUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F0F12AAAF6B71CD26608C775F1DD46F /* Pods_MacSockerDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MacSockerDemo.framework; path = "Pods-MacSockerDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CD8946ADC98CE997BD52A50BC9548F8 /* Pods-MacSockerDemoUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MacSockerDemoUITests-umbrella.h"; sourceTree = "<group>"; };
+		5E290F317160E337924F5952F9C28CD9 /* Pods-MacSockerDemoUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MacSockerDemoUITests-frameworks.sh"; sourceTree = "<group>"; };
+		630F157CE0DE2F77C20597DB2D862E17 /* Pods-MacSockerDemoTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MacSockerDemoTests-resources.sh"; sourceTree = "<group>"; };
+		6F0DBC6D40D800082BBF7D8921C0D3B7 /* Pods-MacSockerDemoUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MacSockerDemoUITests-dummy.m"; sourceTree = "<group>"; };
+		8216D71DADDC25C6DB69477663915955 /* Pods-MacSockerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MacSockerDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		82C24F1D42866DE387D1BE0863DB6006 /* Pods-MacSockerDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MacSockerDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8A8D8E88F6925FECADF15D57DA994D68 /* Pods-MacSockerDemoUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MacSockerDemoUITests-resources.sh"; sourceTree = "<group>"; };
+		8FD9E38A16281227D57B035999C033FC /* Pods-MacSockerDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MacSockerDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		956B7B1D2AC3D8AFC4A479075D813054 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97E62865150D3C8F557F3E7746268328 /* Pods-MacSockerDemoTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MacSockerDemoTests-frameworks.sh"; sourceTree = "<group>"; };
+		9C652F60477A2975E7E32B4133D674B1 /* Pods-MacSockerDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MacSockerDemo.modulemap"; sourceTree = "<group>"; };
+		9CAF7E18A94E63E126C8F75B436060E5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DE771D1F94556534F9F82974B0CF81D /* Pods-MacSockerDemoUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MacSockerDemoUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		AD325BC6BEBD7FE3C70129CEB237BE2D /* Pods-MacSockerDemoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MacSockerDemoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AF4F4F16422A72D952005D834BA5D05E /* Pods-MacSockerDemoUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MacSockerDemoUITests.modulemap"; sourceTree = "<group>"; };
+		B68839A575FDC8DD3CD403C2C9BE11A9 /* Pods-MacSockerDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MacSockerDemo-dummy.m"; sourceTree = "<group>"; };
+		B739F58282D1892E302370D4F54B8CE0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C616C8312614ED3EB0F24F9EAA388FD2 /* Pods-MacSockerDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MacSockerDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		CE4EF6573C445F4A48532BDC1BDB9EA9 /* Pods-MacSockerDemoUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MacSockerDemoUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DD2F138ABCBCB8E11D06FCCF233D35A4 /* Pods-MacSockerDemoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MacSockerDemoTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DFB798EA14C9FEBE3E56E912ADEC4A68 /* Pods-MacSockerDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MacSockerDemo-frameworks.sh"; sourceTree = "<group>"; };
+		F265DE9239FE5308DB241C66A7AC91A5 /* Pods-MacSockerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MacSockerDemo.release.xcconfig"; sourceTree = "<group>"; };
+		FA4388043D9C0BDD13CDDC1C625297C6 /* Pods-MacSockerDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MacSockerDemo-resources.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0410251E98CA3057EB0F35EB516A9869 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB403F2F27DD5321C96E5904A5EBC16E /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29D86E2CB1D8CBD953E70806D0C4C7FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AD082EB56F88FDE7D78643B44FF17A4 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B4D9324B4BF7B9F0CC2F7E74845FA7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				392F1BC36A99C5798119F1A02518A2E8 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04C068A18C5413F804A2959126093416 /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				270DD1219F1E6CF00379D39F252D87C6 /* Cocoa.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		0AFBB9DAFA57238DE6C3C9DD4FAA43C3 /* Pods-MacSockerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				956B7B1D2AC3D8AFC4A479075D813054 /* Info.plist */,
+				0F68ECC0275317067CF544074785E15C /* Pods-MacSockerDemoTests.modulemap */,
+				AD325BC6BEBD7FE3C70129CEB237BE2D /* Pods-MacSockerDemoTests-acknowledgements.markdown */,
+				DD2F138ABCBCB8E11D06FCCF233D35A4 /* Pods-MacSockerDemoTests-acknowledgements.plist */,
+				3D612EA95C66AFB47F5326DDF924B157 /* Pods-MacSockerDemoTests-dummy.m */,
+				97E62865150D3C8F557F3E7746268328 /* Pods-MacSockerDemoTests-frameworks.sh */,
+				630F157CE0DE2F77C20597DB2D862E17 /* Pods-MacSockerDemoTests-resources.sh */,
+				19C00F481E7430AD29B8BCC757A9F027 /* Pods-MacSockerDemoTests-umbrella.h */,
+				3AB36BC6A41182E8718ECE5079123115 /* Pods-MacSockerDemoTests.debug.xcconfig */,
+				012200B57D2B19E0F0EB145090DA1BDF /* Pods-MacSockerDemoTests.release.xcconfig */,
+			);
+			name = "Pods-MacSockerDemoTests";
+			path = "Target Support Files/Pods-MacSockerDemoTests";
+			sourceTree = "<group>";
+		};
+		39E9EE8210D861DFD82346C1F5EB7218 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04C068A18C5413F804A2959126093416 /* OS X */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4301E207CBE4F5835B167B520DAA2FAB /* Pods-MacSockerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				9CAF7E18A94E63E126C8F75B436060E5 /* Info.plist */,
+				9C652F60477A2975E7E32B4133D674B1 /* Pods-MacSockerDemo.modulemap */,
+				8FD9E38A16281227D57B035999C033FC /* Pods-MacSockerDemo-acknowledgements.markdown */,
+				C616C8312614ED3EB0F24F9EAA388FD2 /* Pods-MacSockerDemo-acknowledgements.plist */,
+				B68839A575FDC8DD3CD403C2C9BE11A9 /* Pods-MacSockerDemo-dummy.m */,
+				DFB798EA14C9FEBE3E56E912ADEC4A68 /* Pods-MacSockerDemo-frameworks.sh */,
+				FA4388043D9C0BDD13CDDC1C625297C6 /* Pods-MacSockerDemo-resources.sh */,
+				1EA2B9ACC420167C5FBE857E28A1751F /* Pods-MacSockerDemo-umbrella.h */,
+				8216D71DADDC25C6DB69477663915955 /* Pods-MacSockerDemo.debug.xcconfig */,
+				F265DE9239FE5308DB241C66A7AC91A5 /* Pods-MacSockerDemo.release.xcconfig */,
+			);
+			name = "Pods-MacSockerDemo";
+			path = "Target Support Files/Pods-MacSockerDemo";
+			sourceTree = "<group>";
+		};
+		56FC2C211A12DCA41AD04997DCD75F35 /* Pods-MacSockerDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B739F58282D1892E302370D4F54B8CE0 /* Info.plist */,
+				AF4F4F16422A72D952005D834BA5D05E /* Pods-MacSockerDemoUITests.modulemap */,
+				CE4EF6573C445F4A48532BDC1BDB9EA9 /* Pods-MacSockerDemoUITests-acknowledgements.markdown */,
+				9DE771D1F94556534F9F82974B0CF81D /* Pods-MacSockerDemoUITests-acknowledgements.plist */,
+				6F0DBC6D40D800082BBF7D8921C0D3B7 /* Pods-MacSockerDemoUITests-dummy.m */,
+				5E290F317160E337924F5952F9C28CD9 /* Pods-MacSockerDemoUITests-frameworks.sh */,
+				8A8D8E88F6925FECADF15D57DA994D68 /* Pods-MacSockerDemoUITests-resources.sh */,
+				5CD8946ADC98CE997BD52A50BC9548F8 /* Pods-MacSockerDemoUITests-umbrella.h */,
+				82C24F1D42866DE387D1BE0863DB6006 /* Pods-MacSockerDemoUITests.debug.xcconfig */,
+				3B08A4B07EE3E74C3F8AFE96B27A794B /* Pods-MacSockerDemoUITests.release.xcconfig */,
+			);
+			name = "Pods-MacSockerDemoUITests";
+			path = "Target Support Files/Pods-MacSockerDemoUITests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				39E9EE8210D861DFD82346C1F5EB7218 /* Frameworks */,
+				B1EA1D230840A424E884BA89597BE60A /* Products */,
+				C44231C1E98B2BCD2FC3FDB0C9E77B6E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B1EA1D230840A424E884BA89597BE60A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F0F12AAAF6B71CD26608C775F1DD46F /* Pods_MacSockerDemo.framework */,
+				48F7024B8B9042DE7BFAC227D5654322 /* Pods_MacSockerDemoTests.framework */,
+				4936598C46454AD900741D09AF512B44 /* Pods_MacSockerDemoUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C44231C1E98B2BCD2FC3FDB0C9E77B6E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4301E207CBE4F5835B167B520DAA2FAB /* Pods-MacSockerDemo */,
+				0AFBB9DAFA57238DE6C3C9DD4FAA43C3 /* Pods-MacSockerDemoTests */,
+				56FC2C211A12DCA41AD04997DCD75F35 /* Pods-MacSockerDemoUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		17658A79E5CE391CDC3A1CED1F37B008 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1987CDCEBD2C5E256B8A68B8D718796 /* Pods-MacSockerDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		693A078D841799CA2575C7BCDA4D85CB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54CD4167EC286FAB09E4A203FAF9E613 /* Pods-MacSockerDemoUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7666CA9B6080E48B4434E84872EC6AF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AE8DD5570581E09C1553BCB4F13C0C1 /* Pods-MacSockerDemoTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		204618C3BCAE9E2AFCE47981368F6FC7 /* Pods-MacSockerDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4BC8D1EB5CB7C82C0D9084FC161B034 /* Build configuration list for PBXNativeTarget "Pods-MacSockerDemoUITests" */;
+			buildPhases = (
+				A91D8646ABB91F8AB6143AFBF2F138E0 /* Sources */,
+				4B4D9324B4BF7B9F0CC2F7E74845FA7F /* Frameworks */,
+				693A078D841799CA2575C7BCDA4D85CB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MacSockerDemoUITests";
+			productName = "Pods-MacSockerDemoUITests";
+			productReference = 4936598C46454AD900741D09AF512B44 /* Pods_MacSockerDemoUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8A86A059EF72E374889D4716EE85D1B4 /* Pods-MacSockerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59F67E4F0809BA79DEB47B04BE11D9C0 /* Build configuration list for PBXNativeTarget "Pods-MacSockerDemoTests" */;
+			buildPhases = (
+				9E4973408EDE90286DE29682B9FC4281 /* Sources */,
+				0410251E98CA3057EB0F35EB516A9869 /* Frameworks */,
+				D7666CA9B6080E48B4434E84872EC6AF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MacSockerDemoTests";
+			productName = "Pods-MacSockerDemoTests";
+			productReference = 48F7024B8B9042DE7BFAC227D5654322 /* Pods_MacSockerDemoTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EE881B225A3E74783CA081D363B01ACA /* Pods-MacSockerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DF8D5559E90A26387AE49236AA97DDB /* Build configuration list for PBXNativeTarget "Pods-MacSockerDemo" */;
+			buildPhases = (
+				B6C0009FBBACB9D385C382C5F891198D /* Sources */,
+				29D86E2CB1D8CBD953E70806D0C4C7FE /* Frameworks */,
+				17658A79E5CE391CDC3A1CED1F37B008 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MacSockerDemo";
+			productName = "Pods-MacSockerDemo";
+			productReference = 4F0F12AAAF6B71CD26608C775F1DD46F /* Pods_MacSockerDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = B1EA1D230840A424E884BA89597BE60A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE881B225A3E74783CA081D363B01ACA /* Pods-MacSockerDemo */,
+				8A86A059EF72E374889D4716EE85D1B4 /* Pods-MacSockerDemoTests */,
+				204618C3BCAE9E2AFCE47981368F6FC7 /* Pods-MacSockerDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9E4973408EDE90286DE29682B9FC4281 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87A69C55CEAC167D7DF4846666ACC15D /* Pods-MacSockerDemoTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A91D8646ABB91F8AB6143AFBF2F138E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B480A870DD53BA85E3A5D4D41A7DDEC /* Pods-MacSockerDemoUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6C0009FBBACB9D385C382C5F891198D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C02F1230AD8DEF34F51466BB64CCB882 /* Pods-MacSockerDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		03BB8E51337484F21F87A203EEB4E093 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AB36BC6A41182E8718ECE5079123115 /* Pods-MacSockerDemoTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-MacSockerDemoTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MODULEMAP_FILE = "Target Support Files/Pods-MacSockerDemoTests/Pods-MacSockerDemoTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MacSockerDemoTests;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0E83AB9CE40E3FFCFEF42B0FAAB565C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B08A4B07EE3E74C3F8AFE96B27A794B /* Pods-MacSockerDemoUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-MacSockerDemoUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MODULEMAP_FILE = "Target Support Files/Pods-MacSockerDemoUITests/Pods-MacSockerDemoUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MacSockerDemoUITests;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0E874FC1E11EA46A506D32C67EC68439 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		1760DE4C8FAE313B8BBE8B509AE21AE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		63E422CF287BC69A85C66D50C3AFC8DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 012200B57D2B19E0F0EB145090DA1BDF /* Pods-MacSockerDemoTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-MacSockerDemoTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MODULEMAP_FILE = "Target Support Files/Pods-MacSockerDemoTests/Pods-MacSockerDemoTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MacSockerDemoTests;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		644BE53D0F7308F9D3484369255AEF1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82C24F1D42866DE387D1BE0863DB6006 /* Pods-MacSockerDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-MacSockerDemoUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MODULEMAP_FILE = "Target Support Files/Pods-MacSockerDemoUITests/Pods-MacSockerDemoUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MacSockerDemoUITests;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C22D117364DF658A4558B1E00DC96F43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F265DE9239FE5308DB241C66A7AC91A5 /* Pods-MacSockerDemo.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-MacSockerDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MODULEMAP_FILE = "Target Support Files/Pods-MacSockerDemo/Pods-MacSockerDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MacSockerDemo;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E9B6B2E246201B2A757AA59946CB1393 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8216D71DADDC25C6DB69477663915955 /* Pods-MacSockerDemo.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-MacSockerDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MODULEMAP_FILE = "Target Support Files/Pods-MacSockerDemo/Pods-MacSockerDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MacSockerDemo;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0DF8D5559E90A26387AE49236AA97DDB /* Build configuration list for PBXNativeTarget "Pods-MacSockerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9B6B2E246201B2A757AA59946CB1393 /* Debug */,
+				C22D117364DF658A4558B1E00DC96F43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1760DE4C8FAE313B8BBE8B509AE21AE2 /* Debug */,
+				0E874FC1E11EA46A506D32C67EC68439 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59F67E4F0809BA79DEB47B04BE11D9C0 /* Build configuration list for PBXNativeTarget "Pods-MacSockerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03BB8E51337484F21F87A203EEB4E093 /* Debug */,
+				63E422CF287BC69A85C66D50C3AFC8DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4BC8D1EB5CB7C82C0D9084FC161B034 /* Build configuration list for PBXNativeTarget "Pods-MacSockerDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				644BE53D0F7308F9D3484369255AEF1E /* Debug */,
+				0E83AB9CE40E3FFCFEF42B0FAAB565C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

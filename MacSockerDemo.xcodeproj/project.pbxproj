@@ -7,12 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2360FFB1201ACC9500B7D18C /* HSPServerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2360FFB0201ACC9500B7D18C /* HSPServerVC.swift */; };
+		2360FFB3201ACCAD00B7D18C /* HSPClientVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2360FFB2201ACCAD00B7D18C /* HSPClientVC.swift */; };
+		2360FFB5201ACE0A00B7D18C /* HSPServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2360FFB4201ACE0A00B7D18C /* HSPServer.swift */; };
+		2360FFB7201ACE1900B7D18C /* HSPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2360FFB6201ACE1900B7D18C /* HSPClient.swift */; };
 		23E36C152019B2CB00AE6D22 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E36C142019B2CB00AE6D22 /* AppDelegate.swift */; };
 		23E36C172019B2CB00AE6D22 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E36C162019B2CB00AE6D22 /* ViewController.swift */; };
 		23E36C192019B2CB00AE6D22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23E36C182019B2CB00AE6D22 /* Assets.xcassets */; };
 		23E36C1C2019B2CB00AE6D22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23E36C1A2019B2CB00AE6D22 /* Main.storyboard */; };
 		23E36C282019B2CB00AE6D22 /* MacSockerDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E36C272019B2CB00AE6D22 /* MacSockerDemoTests.swift */; };
 		23E36C332019B2CB00AE6D22 /* MacSockerDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E36C322019B2CB00AE6D22 /* MacSockerDemoUITests.swift */; };
+		23E6B41D201B341900D31B53 /* ytcpsocket.c in Sources */ = {isa = PBXBuildFile; fileRef = 23E6B418201B341900D31B53 /* ytcpsocket.c */; };
+		23E6B41E201B341900D31B53 /* ytcpsocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E6B419201B341900D31B53 /* ytcpsocket.swift */; };
+		23E6B41F201B341900D31B53 /* yudpsocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E6B41A201B341900D31B53 /* yudpsocket.swift */; };
+		23E6B420201B341900D31B53 /* ysocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E6B41B201B341900D31B53 /* ysocket.swift */; };
+		23E6B421201B341900D31B53 /* yudpsocket.c in Sources */ = {isa = PBXBuildFile; fileRef = 23E6B41C201B341900D31B53 /* yudpsocket.c */; };
+		4919905735AB5E995038B03B /* Pods_MacSockerDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58135DA26FE6FDA3E2D86E86 /* Pods_MacSockerDemoUITests.framework */; };
+		6BA0F8D999CB7B54F47D18A1 /* Pods_MacSockerDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39B41941CEA6D033DCB66F58 /* Pods_MacSockerDemo.framework */; };
+		D2557B443E7DD23B5563BC72 /* Pods_MacSockerDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3758FBA3C2601945F6E46DB /* Pods_MacSockerDemoTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +45,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		15AAD654A37434DD4A1BB3E0 /* Pods-MacSockerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MacSockerDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MacSockerDemo/Pods-MacSockerDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		2360FFB0201ACC9500B7D18C /* HSPServerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSPServerVC.swift; sourceTree = "<group>"; };
+		2360FFB2201ACCAD00B7D18C /* HSPClientVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSPClientVC.swift; sourceTree = "<group>"; };
+		2360FFB4201ACE0A00B7D18C /* HSPServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSPServer.swift; sourceTree = "<group>"; };
+		2360FFB6201ACE1900B7D18C /* HSPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSPClient.swift; sourceTree = "<group>"; };
 		23E36C112019B2CB00AE6D22 /* MacSockerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacSockerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23E36C142019B2CB00AE6D22 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		23E36C162019B2CB00AE6D22 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -46,6 +63,20 @@
 		23E36C2E2019B2CB00AE6D22 /* MacSockerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacSockerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		23E36C322019B2CB00AE6D22 /* MacSockerDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacSockerDemoUITests.swift; sourceTree = "<group>"; };
 		23E36C342019B2CB00AE6D22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23E6B417201B341800D31B53 /* MacSockerDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MacSockerDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		23E6B418201B341900D31B53 /* ytcpsocket.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ytcpsocket.c; sourceTree = "<group>"; };
+		23E6B419201B341900D31B53 /* ytcpsocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ytcpsocket.swift; sourceTree = "<group>"; };
+		23E6B41A201B341900D31B53 /* yudpsocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = yudpsocket.swift; sourceTree = "<group>"; };
+		23E6B41B201B341900D31B53 /* ysocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ysocket.swift; sourceTree = "<group>"; };
+		23E6B41C201B341900D31B53 /* yudpsocket.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = yudpsocket.c; sourceTree = "<group>"; };
+		39B41941CEA6D033DCB66F58 /* Pods_MacSockerDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MacSockerDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B282368285A724A50818715 /* Pods-MacSockerDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MacSockerDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MacSockerDemoTests/Pods-MacSockerDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		58135DA26FE6FDA3E2D86E86 /* Pods_MacSockerDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MacSockerDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85DC1F6C7A5517E48F9391C5 /* Pods-MacSockerDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MacSockerDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MacSockerDemoTests/Pods-MacSockerDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8A1D8B80B8F21E46BB40D15A /* Pods-MacSockerDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MacSockerDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MacSockerDemoUITests/Pods-MacSockerDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BEC8A2115AD033DC28AF3E51 /* Pods-MacSockerDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MacSockerDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MacSockerDemoUITests/Pods-MacSockerDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F3758FBA3C2601945F6E46DB /* Pods_MacSockerDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MacSockerDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBBC47D54B7B267E4584CC28 /* Pods-MacSockerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MacSockerDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-MacSockerDemo/Pods-MacSockerDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BA0F8D999CB7B54F47D18A1 /* Pods_MacSockerDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2557B443E7DD23B5563BC72 /* Pods_MacSockerDemoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4919905735AB5E995038B03B /* Pods_MacSockerDemoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +114,8 @@
 				23E36C262019B2CB00AE6D22 /* MacSockerDemoTests */,
 				23E36C312019B2CB00AE6D22 /* MacSockerDemoUITests */,
 				23E36C122019B2CB00AE6D22 /* Products */,
+				26BD9C42A472A12947F469F7 /* Pods */,
+				C118285A52E59955E1D9447A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,8 +132,13 @@
 		23E36C132019B2CB00AE6D22 /* MacSockerDemo */ = {
 			isa = PBXGroup;
 			children = (
+				23E6B416201B33E800D31B53 /* socket */,
 				23E36C142019B2CB00AE6D22 /* AppDelegate.swift */,
 				23E36C162019B2CB00AE6D22 /* ViewController.swift */,
+				2360FFB0201ACC9500B7D18C /* HSPServerVC.swift */,
+				2360FFB2201ACCAD00B7D18C /* HSPClientVC.swift */,
+				2360FFB4201ACE0A00B7D18C /* HSPServer.swift */,
+				2360FFB6201ACE1900B7D18C /* HSPClient.swift */,
 				23E36C182019B2CB00AE6D22 /* Assets.xcassets */,
 				23E36C1A2019B2CB00AE6D22 /* Main.storyboard */,
 				23E36C1D2019B2CB00AE6D22 /* Info.plist */,
@@ -124,6 +165,42 @@
 			path = MacSockerDemoUITests;
 			sourceTree = "<group>";
 		};
+		23E6B416201B33E800D31B53 /* socket */ = {
+			isa = PBXGroup;
+			children = (
+				23E6B41B201B341900D31B53 /* ysocket.swift */,
+				23E6B418201B341900D31B53 /* ytcpsocket.c */,
+				23E6B419201B341900D31B53 /* ytcpsocket.swift */,
+				23E6B41C201B341900D31B53 /* yudpsocket.c */,
+				23E6B41A201B341900D31B53 /* yudpsocket.swift */,
+				23E6B417201B341800D31B53 /* MacSockerDemo-Bridging-Header.h */,
+			);
+			path = socket;
+			sourceTree = "<group>";
+		};
+		26BD9C42A472A12947F469F7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				15AAD654A37434DD4A1BB3E0 /* Pods-MacSockerDemo.debug.xcconfig */,
+				FBBC47D54B7B267E4584CC28 /* Pods-MacSockerDemo.release.xcconfig */,
+				85DC1F6C7A5517E48F9391C5 /* Pods-MacSockerDemoTests.debug.xcconfig */,
+				4B282368285A724A50818715 /* Pods-MacSockerDemoTests.release.xcconfig */,
+				8A1D8B80B8F21E46BB40D15A /* Pods-MacSockerDemoUITests.debug.xcconfig */,
+				BEC8A2115AD033DC28AF3E51 /* Pods-MacSockerDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C118285A52E59955E1D9447A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				39B41941CEA6D033DCB66F58 /* Pods_MacSockerDemo.framework */,
+				F3758FBA3C2601945F6E46DB /* Pods_MacSockerDemoTests.framework */,
+				58135DA26FE6FDA3E2D86E86 /* Pods_MacSockerDemoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -131,9 +208,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 23E36C372019B2CB00AE6D22 /* Build configuration list for PBXNativeTarget "MacSockerDemo" */;
 			buildPhases = (
+				3DBC34F8F150168E180A8B1F /* [CP] Check Pods Manifest.lock */,
 				23E36C0D2019B2CB00AE6D22 /* Sources */,
 				23E36C0E2019B2CB00AE6D22 /* Frameworks */,
 				23E36C0F2019B2CB00AE6D22 /* Resources */,
+				DC1EDB95A1DED84D8C3E6FA2 /* [CP] Embed Pods Frameworks */,
+				E7803A6C8E7303E31F91B6F5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -148,9 +228,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 23E36C3A2019B2CB00AE6D22 /* Build configuration list for PBXNativeTarget "MacSockerDemoTests" */;
 			buildPhases = (
+				674C0956231174D6648DDF4F /* [CP] Check Pods Manifest.lock */,
 				23E36C1F2019B2CB00AE6D22 /* Sources */,
 				23E36C202019B2CB00AE6D22 /* Frameworks */,
 				23E36C212019B2CB00AE6D22 /* Resources */,
+				4B3936A6535B12D5320796B0 /* [CP] Embed Pods Frameworks */,
+				D6296075E78D21E39FE12235 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -166,9 +249,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 23E36C3D2019B2CB00AE6D22 /* Build configuration list for PBXNativeTarget "MacSockerDemoUITests" */;
 			buildPhases = (
+				0359CC242AC405CF8F0C59E7 /* [CP] Check Pods Manifest.lock */,
 				23E36C2A2019B2CB00AE6D22 /* Sources */,
 				23E36C2B2019B2CB00AE6D22 /* Frameworks */,
 				23E36C2C2019B2CB00AE6D22 /* Resources */,
+				42FEAE00B3738A088B93CBDC /* [CP] Embed Pods Frameworks */,
+				6877674B397FE7AEE1431280 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -192,6 +278,7 @@
 				TargetAttributes = {
 					23E36C102019B2CB00AE6D22 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 					23E36C222019B2CB00AE6D22 = {
@@ -252,13 +339,172 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0359CC242AC405CF8F0C59E7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MacSockerDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3DBC34F8F150168E180A8B1F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MacSockerDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		42FEAE00B3738A088B93CBDC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MacSockerDemoUITests/Pods-MacSockerDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B3936A6535B12D5320796B0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MacSockerDemoTests/Pods-MacSockerDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		674C0956231174D6648DDF4F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MacSockerDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6877674B397FE7AEE1431280 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MacSockerDemoUITests/Pods-MacSockerDemoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6296075E78D21E39FE12235 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MacSockerDemoTests/Pods-MacSockerDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC1EDB95A1DED84D8C3E6FA2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MacSockerDemo/Pods-MacSockerDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftSocket/SwiftSocket.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftSocket.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MacSockerDemo/Pods-MacSockerDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7803A6C8E7303E31F91B6F5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MacSockerDemo/Pods-MacSockerDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		23E36C0D2019B2CB00AE6D22 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2360FFB1201ACC9500B7D18C /* HSPServerVC.swift in Sources */,
+				23E6B421201B341900D31B53 /* yudpsocket.c in Sources */,
 				23E36C172019B2CB00AE6D22 /* ViewController.swift in Sources */,
+				2360FFB7201ACE1900B7D18C /* HSPClient.swift in Sources */,
 				23E36C152019B2CB00AE6D22 /* AppDelegate.swift in Sources */,
+				23E6B41E201B341900D31B53 /* ytcpsocket.swift in Sources */,
+				2360FFB3201ACCAD00B7D18C /* HSPClientVC.swift in Sources */,
+				23E6B41F201B341900D31B53 /* yudpsocket.swift in Sources */,
+				2360FFB5201ACE0A00B7D18C /* HSPServer.swift in Sources */,
+				23E6B420201B341900D31B53 /* ysocket.swift in Sources */,
+				23E6B41D201B341900D31B53 /* ytcpsocket.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,8 +659,10 @@
 		};
 		23E36C382019B2CB00AE6D22 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15AAD654A37434DD4A1BB3E0 /* Pods-MacSockerDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = MacSockerDemo/MacSockerDemo.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -422,14 +670,18 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = okdeer.MacSockerDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MacSockerDemo/socket/MacSockerDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
 		23E36C392019B2CB00AE6D22 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBBC47D54B7B267E4584CC28 /* Pods-MacSockerDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = MacSockerDemo/MacSockerDemo.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -437,12 +689,14 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = okdeer.MacSockerDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MacSockerDemo/socket/MacSockerDemo-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
 		23E36C3B2019B2CB00AE6D22 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85DC1F6C7A5517E48F9391C5 /* Pods-MacSockerDemoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -459,6 +713,7 @@
 		};
 		23E36C3C2019B2CB00AE6D22 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B282368285A724A50818715 /* Pods-MacSockerDemoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -475,6 +730,7 @@
 		};
 		23E36C3E2019B2CB00AE6D22 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A1D8B80B8F21E46BB40D15A /* Pods-MacSockerDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -490,6 +746,7 @@
 		};
 		23E36C3F2019B2CB00AE6D22 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEC8A2115AD033DC28AF3E51 /* Pods-MacSockerDemoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
